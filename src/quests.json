@@ -1,0 +1,880 @@
+[
+  {
+    "name": "Prapor",
+    "avatar": "https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/6/6b/Prapor_Portrait.png?version=e5046a4626e202ab554c3594c271fe0f",
+    "quests": [
+      {
+      "name": "Debut",
+      "type": "Elimination",
+      "state": false,
+      "objectives": [
+        "Kill 5 Scavs at Customs",
+        "Hand over 2 MP-133 pump-action shotguns"
+      ],
+      "rewards": [
+        "+600 EXP",
+        "Prapor Rep +0.08",
+        "5000 Roubles",
+        "PM 9x18PM Pistol",
+        "3x 90-93 9x18PM Magazine",
+        "Unlocks purchase of AKS-74U"
+      ]
+    },
+    {
+      "name": "Checking",
+      "type": "PickUp",
+      "state": false,
+      "objectives": [
+        "Find the bronze pocket watch",
+        "Hand over the bronze pocket watch to Prapor"
+      ],
+      "rewards": [
+        "+800 EXP",
+        "Prapor Rep +0.05",
+        "4000 Roubles",
+        "TT Pistol",
+        "3x TT-105 Magazine"
+      ]
+    },
+    {
+      "name": "Shootout Picnic",
+      "type": "Elimination",
+      "state": false,
+      "objectives": [
+        "Neutralize 15 Scavs on Woods"
+      ],
+      "rewards": [
+        "+2000 EXP",
+        "Prapor Rep +0.1",
+        "6000 Roubles",
+        "AKS-74U",
+        "3x 6L20 30-round AK-74 magazines"
+      ]
+    },
+    {
+      "name": "Delievery from the past",
+      "type": "PickUp",
+      "state": false,
+      "objectives": [
+        "Find a secure case in the Tarcone Director's Office at the Customs terminal",
+        "Leave the case in the Factory swing room, on 2nd floor of shop 3",
+        "Survive and exit Factory location"
+      ],
+      "rewards": [
+        "+4100 EXP",
+        "Prapor Rep +0.11",
+        "12000 Roubles",
+        "Saiga Shotgun",
+        "3x Saiga Magazines",
+        "Unlocks PS ammo"
+      ]
+    },
+    {
+      "name": "BP Depot",
+      "type": "Discover",
+      "state": false,
+      "objectives": [
+        "Mark fuel tank №1 with beacon on Customs",
+        "Mark fuel tank №2 with beacon on Customs",
+        "Mark fuel tank №3 with beacon on Customs",
+        "Mark fuel tank №4 with beacon on Customs",
+        "Survive and leave the area"
+      ],
+      "rewards": [
+        "+2900 EXP",
+        "Prapor Rep +0.08",
+        "Jaeger Rep -0.01",
+        "8000 roubles",
+        "3x RGD-5 Grenades",
+        "Expeditionary Fuel Tank"
+      ]
+    },
+    {
+      "name": "Bad rep evidence",
+      "type": "Pickup",
+      "state": false,
+      "objectives": [
+        "Find secure folder 0031 in a bunkhouse on Customs",
+        "Hand over secure folder 0031 to Prapor",
+        "Survive and exit Customs"
+      ],
+      "rewards": [
+        "+4200 EXP",
+        "Prapor Rep +0.1",
+        "16000 roubles",
+        "PP-9 Klin SMG",
+        "Unlocks Zenit-Belomo PSO 1-M2-1"
+      ]
+    },
+    {
+      "name": "Ice cream cones",
+      "type": "Pickup",
+      "state": false,
+      "objectives": [
+        "Find 6 60-round mags for AK",
+        "Hand over 6 60-round mags for AK to Prapor"
+      ],
+      "rewards": [
+        "+5400 EXP",
+        "Prapor Rep +0.08",
+        "17000 roubles",
+        "3x 60-round mags for AK",
+        "Unlocks barter for 60-round mags for AK"
+      ]
+    },
+    {
+      "name": "Postman Pat - Part1",
+      "type": "Pickup",
+      "state": false,
+      "objectives": [
+        "Find a letter on a messenger in the Factory",
+        "Survive and exit Factory location",
+        "Hand over the letter to Therapist"
+      ],
+      "rewards": [
+        "+6000 EXP",
+        "Prapor Rep +0.08",
+        "19000 roubles",
+        "MBSS Backpack"
+      ]
+    },
+    {
+      "name": "Shaking up the teller",
+      "type": "Pickup",
+      "state": false,
+      "objectives": [
+        "Find something valuable in the dorm room 203",
+        "Hand over the item to Prapor"
+      ],
+      "rewards": [
+        "+6100 EXP",
+        "Prapor Rep +0.08",
+        "Jaeger Rep -0.01",
+        "22000 roubles",
+        "Unlocks PBS-4 Silencer",
+        "Unlocks Hexagon 12K suppressor"
+      ]
+    },
+    {
+      "name": "The Punisher - Part 1",
+      "type": "Pickup",
+      "state": false,
+      "objectives": [
+        "Kill 15 Scavs at the Shoreline using any kind of AKM"
+      ],
+      "rewards": [
+        "+10800 EXP",
+        "Prapor Rep +0.08",
+        "40000 roubles",
+        "6B43 Zabralo-Sh Armor",
+        "Unlocks SV-98 Sniper Rifle"
+      ]
+    },
+    {
+      "name": "The Punisher - Part 2",
+      "type": "Elimination",
+      "state": false,
+      "objectives": [
+        "Kill 12 Scavs at the Shoreline using a suppressed weapon",
+        "Find in raid 7 lower half-masks",
+        "Hand masks over to Prapor"
+      ],
+      "rewards": [
+        "+13900 EXP",
+        "Prapor Rep +0.1",
+        "70000 roubles"
+      ]
+    },
+    {
+      "name": "The Punisher - Part 3",
+      "type": "Elimination",
+      "state": false,
+      "objectives": [
+        "Kill 25 Scavs on Customs using AKS-74U"
+      ],
+      "rewards": [
+        "+12400 EXP",
+        "Prapor Rep +0.08",
+        "Skier Rep +0.05",
+        "2500 Dollars",
+        "DVL-10 Sniper rifle"
+      ]
+    },
+    {
+      "name": "The Punisher - Part 4",
+      "type": "Elimination",
+      "state": false,
+      "objectives": [
+        "Kill 10 Scavs in Woods with a 12 Gauge Shotgun",
+        "Kill 10 PMCs on Shoreline while wearing a Balaclava and a Scav Vest",
+        "Find in raid 5 Bars A-2607 knives",
+        "Handover knives to Prapor"
+      ],
+      "rewards": [
+        "+19000 EXP",
+        "Prapor Rep +0.12",
+        "Jaeger Rep -0.01",
+        "100000 Roubles",
+        "Unlocks BT ammo"
+      ]
+    },
+    {
+      "name": "The Punisher - Part 5",
+      "type": "PickUp",
+      "state": false,
+      "objectives": [
+        "Find 3 AK-74Ns",
+        "Handover AKs to Prapor",
+        "Find 3 M4A1s",
+        "Handover M4A1s to Prapor",
+        "Find 5 PM Pistols",
+        "Handover Pistols to Prapor",
+        "Kill 10 PMCs, you must be wearing a PACA vest and a 6b47 helmet"
+      ],
+      "rewards": [
+        "+19300 EXP",
+        "Prapor Rep +0.12",
+        "5000 Dollars",
+        "Pistol Case",
+        "Documents Case",
+        "Unlocks BP ammo"
+      ]
+    },
+    {
+      "name": "The Punisher - Part 6",
+      "type": "Elimination",
+      "state": false,
+      "objectives": [
+        "Kill 15 PMCs with SVD",
+        "Find 7 USEC dogtags",
+        "Handover USEC dogtags to Prapor",
+        "Find 7 BEAR dogtags",
+        "Handover BEAR dogtags to Prapor"
+      ],
+      "rewards": [
+        "+20600 EXP",
+        "Prapor Rep +0.12",
+        "Skier Rep +0.06",
+        "Therapist Rep +0.15",
+        "250000 Dollars",
+        "Secure Container Episolon"
+      ]
+    },
+    {
+      "name": "Polikhim Hobo",
+      "type": "Elimination",
+      "state": false,
+      "objectives": [
+        "Kill 25 Scavs on Customs"
+      ],
+      "rewards": [
+        "+7000 EXP",
+        "Prapor Rep +0.1",
+        "17000 roubles",
+        "4x F-1 Grenades"
+      ]
+    },
+    {
+      "name": "Big Customer",
+      "type": "Completion",
+      "state": false,
+      "objectives": [
+        "Find a transport with chemicals",
+        "Mark the chemical transport with a beacon",
+        "Survive and exit Customs"
+      ],
+      "rewards": [
+        "+8200 EXP",
+        "Prapor Rep +0.1",
+        "Jaeger Rep -0.01",
+        "200000 roubles",
+        "PACA Soft Armor",
+        "2x Ammo Case"
+      ]
+    },
+    {
+      "name": "No Offense",
+      "type": "PickUp",
+      "state": false,
+      "objectives": [
+        "Find 10 M67 grenades",
+        "Handover grenades to Prapor"
+      ],
+      "rewards": [
+        "Prapor Rep +0.4"
+      ]
+    },
+    {
+      "name": "Grenadier",
+      "type": "Elimination",
+      "state": false,
+      "objectives": [
+        "Kill 12 PMCs with grenades"
+      ],
+      "rewards": [
+        "+21300 EXP",
+        "50000 Roubles",
+        "7x F-1 grenades",
+        "240 BT Ammo",
+        "Unlocks BP 8pack barter trade"
+      ]
+    },
+    {
+      "name": "Perfect Mediator",
+      "type": "Standing",
+      "state": false,
+      "objectives": [
+        "Reach 4-th level of standing with Ragman",
+        "Reach 4-th level of standing with Skier",
+        "Reach 4-th level of standing with Mechanic",
+        "Reach 4-th level of standing with Peacekeeper",
+        "Reach 4-th level of standing with Prapor",
+        "Reach 4-th level of standing with Therapist"
+      ],
+      "rewards": [
+        "+17200 exp",
+        "Prapor Rep +0.9",
+        "55000 Roubles",
+        "T H I C C Weapon Case"
+      ]
+    },
+    {
+      "name": "Insomnia",
+      "type": "Elimination",
+      "state": false,
+      "objectives": [
+        "Kill 30 PMC during nighttime (23 to 04)"
+      ],
+      "rewards": [
+        "+18500 exp",
+        "85000 Roubles",
+        "3x PNV-10T Night Vision",
+        "3x Zenit Klesch flashlight + laser designator"
+      ]
+    },
+    {
+      "name": "Test Drive",
+      "type": "Elimination",
+      "state": false,
+      "objectives": [
+        "Kill 5 PMCs using an M1A with Hybrid 46 silencer and a Trijicon REAP-IR thermal scope"
+      ],
+      "rewards": [
+        "+31000 exp",
+        "Prapor Rep +0.12",
+        "300000 Roubles",
+        "2x RPK-16 LMG",
+        "6x 95-round mag for the RPK-16",
+        "5 Golden Neck Chains"
+      ]
+    },
+    {
+      "name": "Regulated Materials",
+      "type": "PickUp",
+      "state": false,
+      "objectives": [
+        "Find in raid Military battery",
+        "Handover Military battery to Prapor",
+        "Find in raid 10 30-mil. shells for BMP cannon",
+        "Handover tank shells to Prapor"
+      ],
+      "rewards": [
+        "150000 Roubles",
+        "Unlocks ASh-12 barter trade"
+      ]
+    }
+    ] 
+  },
+  {
+    "name": "Therapist",
+    "avatar": "https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/c/c7/Therapist_Portrait.png?version=12e788fde86d288f61ead2be13eb36d4",
+    "quests": [
+      {
+        "name": "Shortage",
+        "type": "PickUp",
+        "state": false,
+        "objectives": [
+          "Find 5 Salewa kits",
+          "Hand over 5 Salewa kits to Therapist"
+        ],
+        "rewards": [
+          "+500 EXP",
+          "Therapist Rep +0.07",
+          "10000 Roubles",
+          "4x Painkillers",
+          "4x AI-2 Medikits",
+          "4x Splints"
+        ]
+      },
+      {
+        "name": "Sanitary Standards - Part 1",
+        "type": "PickUp",
+        "state": false,
+        "objectives": [
+          "Find gas analyzer",
+          "Hand over gas analyzer"
+        ],
+        "rewards": [
+          "+2200 EXP",
+          "Therapist Rep +0.09",
+          "14000 Roubles",
+          "2x Car first aid kits",
+          "Unlocks Car first aid kits"
+        ]
+      },
+      {
+        "name": "Sanitary Standards - Part 2",
+        "type": "Completion",
+        "state": false,
+        "objectives": [
+          "Find in raid 2 gas analyzers",
+          "Hand over gas analyzers to Therapist"
+        ],
+        "rewards": [
+          "+4500 EXP",
+          "Therapist Rep +0.09",
+          "18000 Roubles"
+        ]
+      },
+      {
+        "name": "Operation Aquarius - Part 1",
+        "type": "PickUp",
+        "state": false,
+        "objectives": [
+          "Find hidden water in the dorm",
+          "Survive and exit Customs"
+        ],
+        "rewards": [
+          "+3400 EXP",
+          "Therapist Rep +0.09",
+          "Skier Rep -0.08",
+          "14000 Roubles",
+          "8x 0.6L Water bottles"
+        ]
+      },
+      {
+        "name": "Operation Aquarius - Part 2",
+        "type": "Elimination",
+        "state": false,
+        "objectives": [
+          "Eliminate 15 Scavs on Customs"
+        ],
+        "rewards": [
+          "+3400 EXP",
+          "Therapist Rep +0.09",
+          "Skier Rep -0.08",
+          "15000 Roubles",
+          "3x army bandages",
+          "Unlocks army bandages"
+        ]
+      },
+      {
+        "name": "Painkiller",
+        "type": "PickUp",
+        "state": false,
+        "objectives": [
+          "Find in raid 4 morphine syringes",
+          "Handover syringes to Therapist"
+        ],
+        "rewards": [
+          "+4600 EXP",
+          "Therapist Rep +0.09",
+          "17000 Roubles",
+          "10x painkillers",
+          "x5 Disposable Syringes"
+        ]
+      },
+      {
+        "name": "Pharmacist",
+        "type": "PickUp",
+        "state": false,
+        "objectives": [
+          "Find a case with the device",
+          "Hand over the case to Therapist"
+        ],
+        "rewards": [
+          "+5900 EXP",
+          "Therapist Rep +0.09",
+          "25000 Roubles",
+          "4x IFAK first aid kits",
+          "x5 Disposable Unlocks barter for 6B47 Helmet"
+        ]
+      },
+      {
+        "name": "Supply Plans",
+        "type": "PickUp",
+        "state": false,
+        "objectives": [
+          "Find the secure folder at the Sawmill",
+          "Survive and exit Woods",
+          "Handover the folder to Therapist"
+        ],
+        "rewards": [
+          "+7700 EXP",
+          "Therapist Rep +0.09",
+          "70000 Roubles"
+        ]
+      },
+      {
+        "name": "General Wares",
+        "type": "Completion",
+        "state": false,
+        "objectives": [
+          "Find in raid 15 Tushonka",
+          "Handover Tushonkas to Therapist"
+        ],
+        "rewards": [
+          "+5000 EXP",
+          "Therapist Rep +0.07",
+          "4x cans of pacific saury",
+          "2x Iskra Lunch boxes",
+          "x2 Coffee Majaice"
+        ]
+      },
+      {
+        "name": "Car Repair",
+        "type": "PickUp",
+        "state": false,
+        "objectives": [
+          "Find in raid 4 car batteries",
+          "Find in raid 8 spark plugs",
+          "Handover car battieres to Therapist",
+          "handover spark plugs to Therapist"
+        ],
+        "rewards": [
+          "+7600 EXP",
+          "Therapist Rep +0.08",
+          "1500 dollars",
+          "x2 Grizzly First aid kits"
+        ]
+      },
+      {
+        "name": "Health Care Privacy - Part 1",
+        "type": "Discover",
+        "state": false,
+        "objectives": [
+          "Mark 1st ambulance",
+          "Mark 2nd ambulance",
+          "Mark 3rd ambulance",
+          "Survive and exit the location"
+        ],
+        "rewards": [
+          "+6500 EXP",
+          "Therapist Rep +0.07",
+          "22000 Roubles",
+          "2x IFAK first aid kits",
+          "Unlocks IFAK first aid kits"
+        ]
+      },
+      {
+        "name": "Health Care Privacy - Part 2",
+        "type": "Discover",
+        "state": false,
+        "objectives": [
+          "Gather info on the fate of the Terragroup research",
+          "Hand over info on the fate of the Terragroup research",
+          "Survive and exit the location"
+        ],
+        "rewards": [
+          "+8600 EXP",
+          "Therapist Rep +0.09",
+          "24000 Roubles",
+          "4x Salewa First aid kits"
+        ]
+      },
+      {
+        "name": "Health Care Privacy - Part 3",
+        "type": "Discover",
+        "state": false,
+        "objectives": [
+          "Find the car that belonged to the head of the Medical Service",
+          "Pick up the blood sample",
+          "Hand over the blood sample",
+          "Survive and exit the location"
+        ],
+        "rewards": [
+          "+9400 EXP",
+          "Therapist Rep +0.09",
+          "26000 Roubles",
+          "2x Morphine syringes",
+          "Unlocks Morphine syringes"
+        ]
+      },
+      {
+        "name": "Health Care Privacy - Part 4",
+        "type": "Skill",
+        "state": false,
+        "objectives": [
+          "Increase Health skill to level 4"
+        ],
+        "rewards": [
+          "+10200 EXP",
+          "Therapist Rep +0.09",
+          "29000 Roubles",
+          "x2 Grizzly First aid kits"
+        ]
+      },
+      {
+        "name": "Health Care Privacy - Part 5",
+        "type": "Multi",
+        "state": false,
+        "objectives": [
+          "Locate the drop spot in the nighttime in Factory",
+          "Obtain 3 packs of gunpowder and leave them in the designated spot"
+        ],
+        "rewards": [
+          "+13300 EXP",
+          "Therapist Rep +0.1",
+          "35000 Roubles",
+          "Meds Case"
+        ]
+      },
+      {
+        "name": "Postman Pat - Part 2",
+        "type": "PickUp",
+        "state": false,
+        "objectives": [
+          "Hand over the letter to Therapist"
+        ],
+        "rewards": [
+          "+4200 EXP",
+          "Therapist Rep +0.06",
+          "5000 Roubles",
+          "Unlocks Salewa first aid kits"
+        ]
+      },
+      {
+        "name": "Out of Curiosity",
+        "type": "PickUp",
+        "state": false,
+        "objectives": [
+          "Find a transport with chemicals",
+          "Mark the chemical transport with a beacon",
+          "Survive and exit Customs"
+        ],
+        "rewards": [
+          "+8300 EXP",
+          "Therapist Rep +0.3",
+          "170000 Roubles",
+          "Meds Case"
+        ]
+      },
+      {
+        "name": "Trust Regain",
+        "type": "PickUp",
+        "state": false,
+        "objectives": [
+          "Find 303 dorm room key",
+          "Find ZB-014 key",
+          "Find the customs military checkpoint key",
+          "Find gas station closet key",
+          "Hand over 303 key",
+          "Hand over ZB-014 key",
+          "Hand over the checkpoint key",
+          "Hand over closet key"
+        ],
+        "rewards": [
+          "Therapist Rep +0.3"
+        ]
+      },
+      {
+        "name": "Hippocratic Vow",
+        "type": "Completion",
+        "state": false,
+        "objectives": [
+          "Handover 500 dollars"
+        ],
+        "rewards": [
+          "Therapist Rep +0.2"
+        ]
+      },
+      {
+        "name": "Private Clinic",
+        "type": "PickUp",
+        "state": false,
+        "objectives": [
+          "Handover 3 Ophthalmoscopes",
+          "Handover 3 LEDX"
+        ],
+        "rewards": [
+          "+20100 EXP",
+          "Therapist Rep +0.11",
+          "130000 Roubles",
+          "1x T H I C C Items case",
+          "1x West wing room 306 key"
+        ]
+      },
+      {
+        "name": "Athlete",
+        "type": "Skill",
+        "state": false,
+        "objectives": [
+          "earn 10 health skill level"
+        ],
+        "rewards": [
+          "+19600 EXP",
+          "Therapist Rep +0.11",
+          "110000 Roubles",
+          "3x Zagustin syringes",
+          "3x Adrenaline syringes",
+          "Unlocks Adrenaline syringes"
+        ]
+      },
+      {
+        "name": "Decontamination Service",
+        "type": "Elimination",
+        "state": false,
+        "objectives": [
+          "Kill 30 scavs on Interchange from less than 60 meters. You must be wearing Spec. Gear"
+        ],
+        "rewards": [
+          "+21600 EXP",
+          "Therapist Rep +0.11",
+          "300000 Roubles",
+          "3x Morphine syringes",
+          "3x IFAK First aid kits"
+        ]
+      },
+      {
+        "name": "An apple a day - keeps the doctor away",
+        "type": "Completion",
+        "state": false,
+        "objectives": [
+          "Handover 400000 roubles"
+        ],
+        "rewards": [
+          "+2 Health skill levels"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Skier",
+    "avatar": "https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/0/0a/Skier_Portrait.png?version=ff86d0633640f7e6e6486c535d7647c5",
+    "quests": [
+      {
+        "name": "Supplier",
+        "type": "PickUp",
+        "state": false,
+        "objectives": [
+          "Handover 4 3M body armor to Skier",
+          "Handover 4 Toz Shotguns to Skier"
+        ],
+        "rewards": [
+          "+3300 EXP",
+          "Skier Rep +0.12",
+          "60000 Roubles",
+          "Unlocks Saiga-9"
+        ]
+      },
+      {
+        "name": "The Extortionist",
+        "type": "PickUp",
+        "state": false,
+        "objectives": [
+          "Find the hidden valuable Cargo",
+          "Handover the Cargo to Skier"
+        ],
+        "rewards": [
+          "+3200 EXP",
+          "Skier Rep +0.08",
+          "500 Dollars",
+          "Vepr AKM / VPO",
+          "3x Izhmash AK Magazine (7.62)"
+        ]
+      },
+      {
+        "name": "Stirrup",
+        "type": "Elimination",
+        "state": false,
+        "objectives": [
+          "Eliminate 3 PMC operators. You must be using pistols"
+        ],
+        "rewards": [
+          "+4700 EXP",
+          "Skier Rep +0.12",
+          "65000 Roubles",
+          "Tri-Zip Backpack",
+          "Unlocks Vepr AKM / VPO"
+        ]
+      },
+      {
+        "name": "What's on the flash drive?",
+        "type": "PickUp",
+        "state": false,
+        "objectives": [
+          "Find in raid 2 USB flash drives",
+          "Handover to Skier"
+        ],
+        "rewards": [
+          "+4500 EXP",
+          "Skier Rep +0.1",
+          "Jaeger Rep -0.01",
+          "30000 Roubles",
+          "SKS Hunting Rifle",
+          "2x ProMags for the SKS",
+          "1x Hexagon suppressor"
+        ]
+      },
+      {
+        "name": "Golden Swag",
+        "type": "Completion",
+        "state": false,
+        "objectives": [
+          "Find a Gilded Zibbo lighter",
+          "Leave the lighter in the bunkhouse in trailer parking on Customs"
+        ],
+        "rewards": [
+          "+4600 EXP",
+          "Skier Rep +0.1",
+          "17000 Roubles",
+          "AS VAL",
+          "3x 20 round AS VSS mags",
+          "Unlocks Weaver Reflex sight"
+        ]
+      },
+      {
+        "name": "Chemical - Part 1",
+        "type": "PickUp",
+        "state": false,
+        "objectives": [
+          "Find some information about the Deputy Chief's past life",
+          "Hand it over to Skier",
+          "Find items that can help the investigation",
+          "Hand them over to Skier"
+        ],
+        "rewards": [
+          "+4800 EXP",
+          "Skier Rep +0.08",
+          "15000 Roubles",
+          "PACA Soft Armor"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Peacekeeper",
+    "avatar": "https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/0/08/Peacekeeper_Portrait.png?version=b70079cab0446892e9acda1fe70beacb",
+    "quests": []
+  },
+  {
+    "name": "Mechanic",
+    "avatar": "https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/e/ef/Mechanic_Portrait.png?version=430d9fb431257b80f7c7d2ede7497947",
+    "quests": []
+  },
+  {
+    "name": "Ragman",
+    "avatar": "https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/8/8b/Ragman_Portrait.png?version=15ec6e013d8c2325d7916b363042058c",
+    "quests": []
+  },
+  {
+    "name": "Jaeger",
+    "avatar": "https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/d/d1/Jaeger_Portrait.png?version=dc3e3aead4fbd48a5219a2e0163d9e1f",
+    "quests": []
+  },
+  {
+    "name": "Fence",
+    "avatar": "https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/f/f7/Fence_Portrait.png?version=6001e5b7307bb86679a692c1a61da4c8",
+    "quests": []
+  }
+]
