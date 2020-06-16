@@ -35,6 +35,6 @@ export async function UpdateQuest(quest, traderName) {
     activeQuest.state = !activeQuest.state;
     updateState(Traders);
 
-    return Traders;
+    return [...Traders];
   });
 }
