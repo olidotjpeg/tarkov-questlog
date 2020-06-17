@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { render } from 'react-dom';
 import styled from 'styled-components';
 import './style.css';
-import {GetQuests, getPersistent, UpdateQuest} from './QuestService';
+import {GetQuests, getPersistent, UpdateQuest, ShareProgress} from './QuestService';
 import Trader from './Trader';
 import QuestLog from './QuestLog';
 
@@ -45,6 +45,10 @@ function App() {
     });
   }
 
+  function shareQuest() {
+    ShareProgress(traders).then((res) => console.log(res));
+  }
+
   async function updateQuest(quest, traderName) {
     UpdateQuest(quest, traderName).then((updatedTraders) => {
       setTraders(updatedTraders);
@@ -66,6 +70,7 @@ function App() {
     <div>
       <p>Welcome to Tarkov</p>
       <TraderWrapper>
+        <button onClick={() => shareQuest()}>Share state</button>
         {traders.map((trader) => {
           return (
             <Trader key={trader.name} trader={trader} select={pickTrader} />
