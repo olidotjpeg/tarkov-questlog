@@ -34,7 +34,7 @@ export async function UpdateQuest(quest, traderName) {
   });
 }
 
-export async function ShareProgress(data) {
+async function ShareProgress(data) {
   return data.reduce((uri, guy, guyIndex) => {
     const characters = guy.quests
         .map((quest, questIndex) => {
@@ -56,15 +56,13 @@ export async function ShareProgress(data) {
 }
 
 export async function LoadProgress(uri, data) {
-  const numberRegex = /(\d+)/
-
-  let guyIndex = 0
+  const numberRegex = /(\d+)/;
+  let guyIndex = 0;
 
   // you have to account for indexes that are above 9 and thus have multiple characters
   for (const group of uri.split(numberRegex).filter(x => x !== '' && x !== undefined)) {
     if (numberRegex.test(group)) {
-      const index = Number(group)
-      guyIndex = index
+      guyIndex = Number(group)
     } else {
       for (const char of group.split('')) {
         const questIndex = base58Characters.indexOf(char)
@@ -90,6 +88,12 @@ async function selectTrader(traderName) {
   });
 }
 
-async function updateState(traders) {
-  localStorage.setItem('tarkovqlogState', JSON.stringify(traders))
+export async function updateState(traders) {
+  localStorage.setItem('tarkovqlogState', JSON.stringify(traders));
+  ShareProgress(traders).then((res) => {
+    let shareUrl = new URL(window.location.origin);
+    shareUrl.searchParams.set('state', res);
+    console.log(res);
+    window.history.pushState('newState', 'Test123', shareUrl.href);
+  })
 }

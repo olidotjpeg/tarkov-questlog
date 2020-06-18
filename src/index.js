@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { render } from 'react-dom';
 import styled from 'styled-components';
 import './style.css';
-import {GetQuests, getPersistent, UpdateQuest, ShareProgress} from './QuestService';
+import {GetQuests, getPersistent, UpdateQuest, LoadProgress, updateState} from './QuestService';
 import Trader from './Trader';
 import QuestLog from './QuestLog';
 
@@ -39,14 +39,21 @@ function App() {
     selectTrader(trader);
   }
 
-  function traderLoader() {
-    GetQuests().then(res => {
+  async function traderLoader() {
+    return GetQuests().then(res => {
       setTraders(res);
+      return res;
     });
   }
 
-  function shareQuest() {
-    ShareProgress(traders).then((res) => console.log(res));
+  async function updateTrader(response) {
+    setTraders(response);
+    return response;
+  }
+
+  function getSaveState(inlineTraders) {
+    const stateParam = new URLSearchParams(window.location.search.substring(1));
+    LoadProgress(stateParam.get("state"), inlineTraders).then((res) => setTraders(res));
   }
 
   async function updateQuest(quest, traderName) {
@@ -60,9 +67,18 @@ function App() {
       localStorage.removeItem('tarkovqlogState')
     }
     if (localStorage.getItem('tarkovqlogState')) {
-      setTraders(getPersistent());
+      updateTrader(getPersistent()).then((val) => {
+        if (window.location.search.length > 0) {
+          getSaveState(val);
+        }
+      });
     } else {
-      traderLoader();
+      traderLoader().then((val) => {
+        if (window.location.search.length > 0) {
+          getSaveState(val);
+          updateState(val).then(r => r);
+        }
+      });
     }
   }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
@@ -70,7 +86,6 @@ function App() {
     <div>
       <p>Welcome to Tarkov</p>
       <TraderWrapper>
-        <button onClick={() => shareQuest()}>Share state</button>
         {traders.map((trader) => {
           return (
             <Trader key={trader.name} trader={trader} select={pickTrader} />
