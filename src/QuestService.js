@@ -1,5 +1,3 @@
-const __API__ = 'https://gist.githubusercontent.com/Stenkilde/def40741a9f9549ac979caaac5949da5/raw/f4fd8fa9d82719b467a37a08d433207fd36db44e/quests.json';
-const isNumericRegex = /\d+/;
 // List of characters that are valid in a URL
 const base58Characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_+!*$".split('')
 
@@ -7,14 +5,13 @@ const base58Characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_
 let Traders = [];
 
 export async function GetQuests() {
-  return fetch(__API__, { cache: "force-cache" })
+  return fetch('./data.json', { cache: "force-cache" })
   .then(response => response.json())
   .then(data => {
-    updateState(data);
     Traders = [...data, ...Traders];
 
     return data;
-  });
+  }).catch((err) => console.log(err));
 }
 
 export function getPersistent() {
@@ -91,9 +88,25 @@ async function selectTrader(traderName) {
 export async function updateState(traders) {
   localStorage.setItem('tarkovqlogState', JSON.stringify(traders));
   ShareProgress(traders).then((res) => {
+    console.log(res);
     let shareUrl = new URL(window.location.origin);
     shareUrl.searchParams.set('state', res);
-    console.log(res);
     window.history.pushState('newState', 'Test123', shareUrl.href);
+  })
+}
+
+export async function AppStarter() {
+  return GetQuests().then((traders) => {
+    if (window.location.search.length > 0) {
+      const stateParam = new URLSearchParams(window.location.search.substring(1));
+      if (stateParam.get('state').length > 0) {
+        return LoadProgress(stateParam.get('state'), traders).then((res) => res);
+      }
+      return traders;
+    }
+    else if(localStorage.getItem('tarkovqlogParam')) {
+      return LoadProgress(localStorage.getItem('tarkovqlogParam'), traders).then((res) => res);
+    }
+    return traders;
   })
 }

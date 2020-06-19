@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { render } from 'react-dom';
 import styled from 'styled-components';
 import './style.css';
-import {GetQuests, getPersistent, UpdateQuest, LoadProgress, updateState} from './QuestService';
+import {UpdateQuest, AppStarter} from './QuestService';
 import Trader from './Trader';
 import QuestLog from './QuestLog';
 
@@ -39,23 +39,6 @@ function App() {
     selectTrader(trader);
   }
 
-  async function traderLoader() {
-    return GetQuests().then(res => {
-      setTraders(res);
-      return res;
-    });
-  }
-
-  async function updateTrader(response) {
-    setTraders(response);
-    return response;
-  }
-
-  function getSaveState(inlineTraders) {
-    const stateParam = new URLSearchParams(window.location.search.substring(1));
-    LoadProgress(stateParam.get("state"), inlineTraders).then((res) => setTraders(res));
-  }
-
   async function updateQuest(quest, traderName) {
     UpdateQuest(quest, traderName).then((updatedTraders) => {
       setTraders(updatedTraders);
@@ -63,23 +46,25 @@ function App() {
   }
 
   useEffect(() => {
-    if (localStorage.getItem('tarkovqlogState') === undefined) {
-      localStorage.removeItem('tarkovqlogState')
-    }
-    if (localStorage.getItem('tarkovqlogState')) {
-      updateTrader(getPersistent()).then((val) => {
-        if (window.location.search.length > 0) {
-          getSaveState(val);
-        }
-      });
-    } else {
-      traderLoader().then((val) => {
-        if (window.location.search.length > 0) {
-          getSaveState(val);
-          updateState(val).then(r => r);
-        }
-      });
-    }
+    AppStarter().then((r) => setTraders(r));
+
+    // if (localStorage.getItem('tarkovqlogState') === undefined) {
+    //   localStorage.removeItem('tarkovqlogState')
+    // }
+    // if (localStorage.getItem('tarkovqlogState')) {
+    //   updateTrader(getPersistent()).then((val) => {
+    //     if (window.location.search.length > 0) {
+    //       getSaveState(val);
+    //     }
+    //   });
+    // } else {
+    //   traderLoader().then((val) => {
+    //     if (window.location.search.length > 0) {
+    //       getSaveState(val);
+    //       // updateState(val).then(r => r);
+    //     }
+    //   });
+    // }
   }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
   return (
