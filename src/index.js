@@ -40,14 +40,14 @@ function App() {
   }
 
   async function updateQuest(quest, traderName) {
-    UpdateQuest(quest, traderName).then((updatedTraders) => {
+    await UpdateQuest(quest, traderName, traders).then((updatedTraders) => {
       setTraders(updatedTraders);
     })
   }
 
   useEffect(() => {
     AppStarter().then((r) => setTraders(r));
-  }, []);// eslint-disable-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <div>

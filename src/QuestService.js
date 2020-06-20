@@ -1,27 +1,21 @@
 // List of characters that are valid in a URL
 const base58Characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_+!*$".split('');
 
-// Internal state
-let Traders = [];
-
 export function GetQuests() {
   return fetch('./data.json', { cache: "force-cache" })
   .then(response => response.json())
   .then(data => {
-    Traders = [...data, ...Traders];
-
     return data;
   }).catch((err) => console.log(err));
 }
 
-export function UpdateQuest(quest, traderName) {
-  return selectTrader(traderName).then((trader) => {
-    const activeQuest = trader.quests.find((q) => q.name === quest.name);
-    activeQuest.state = !activeQuest.state;
-    updateState(Traders);
+export async function UpdateQuest(quest, traderName, traders) {
+  const selectedTrader = selectTrader(traders, traderName);
+   const activeQuest = selectedTrader.quests.find((q) => q.name === quest.name);
+   activeQuest.state = !activeQuest.state;
+   updateState(traders);
 
-    return [...Traders];
-  });
+   return [...traders];
 }
 
 function ShareProgress(data) {
@@ -34,7 +28,7 @@ function ShareProgress(data) {
 
           return quest.state ? base58Characters[questIndex] : undefined
         })
-        .filter((char) => char !== undefined)
+        .filter((char) => char !== undefined);
 
     // Exclude guys without quest modifications, making the URI smaller
     if (characters.length === 0) {
@@ -55,7 +49,7 @@ export function LoadProgress(uri, data) {
       guyIndex = Number(group)
     } else {
       for (const char of group.split('')) {
-        const questIndex = base58Characters.indexOf(char)
+        const questIndex = base58Characters.indexOf(char);
         if (questIndex === -1) {
           throw new Error('Invalid URI supplied, character not recognized')
         }
@@ -72,19 +66,17 @@ export function LoadProgress(uri, data) {
   return data
 }
 
-function selectTrader(traderName) {
-  return Traders.find((trader) => {
+function selectTrader(traders, traderName) {
+  return traders.find((trader) => {
     return trader.name === traderName;
   });
 }
 
 export function updateState(traders) {
-  ShareProgress(traders).then((res) => {
-    console.log(res);
-    let shareUrl = new URL(window.location.origin);
-    shareUrl.searchParams.set('state', res);
-    window.history.pushState('newState', 'Test123', shareUrl.href);
-  })
+  const sharedResponse = ShareProgress(traders);
+  let shareUrl = new URL(window.location.origin);
+  shareUrl.searchParams.set('state', sharedResponse);
+  window.history.replaceState('', '', shareUrl.href);
 }
 
 export function AppStarter() {
@@ -92,7 +84,7 @@ export function AppStarter() {
     if (window.location.search.length > 0) {
       const stateParam = new URLSearchParams(window.location.search.substring(1));
       if (stateParam.get('state').length > 0) {
-        return LoadProgress(stateParam.get('state'), traders).then((res) => res);
+        return LoadProgress(stateParam.get('state'), traders);
       }
       return traders;
     }
