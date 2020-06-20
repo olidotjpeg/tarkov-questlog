@@ -24,7 +24,7 @@ const BackgroundBlur = styled.div`
   z-index: 1;
   width: 100vw;
   height: 100vh;
-  background-image: url("./assets/background.png");
+  background-image: url("./background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
