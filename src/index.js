@@ -50,8 +50,7 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <p>Welcome to Tarkov</p>
+    <React.Fragment>
       <TraderWrapper>
         {traders.map((trader) => {
           return (
@@ -62,7 +61,7 @@ function App() {
         {selectedTrader ? <QuestLog quests={selectedTrader.quests} traderName={selectedTrader.name} updateQuest={updateQuest} /> : <p>Pick a trader</p>}
       </TraderWrapper>
       <BackgroundBlur />
-    </div>
+    </React.Fragment>
   );
 }
 
