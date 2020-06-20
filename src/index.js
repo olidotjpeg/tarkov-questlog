@@ -24,7 +24,7 @@ const BackgroundBlur = styled.div`
   z-index: 1;
   width: 100vw;
   height: 100vh;
-  background-image: url("https://cdn.discordapp.com/attachments/720665957915295774/720666048340295751/2020-03-1312-23_-14.5_28.4_-39.7_0.1_-0.4_0.1_0.9_0.png");
+  background-image: url("./assets/background.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
