@@ -14,13 +14,6 @@ export function GetQuests() {
   }).catch((err) => console.log(err));
 }
 
-export function getPersistent() {
-  const internal = JSON.parse(localStorage.getItem('tarkovqlogState'));
-  Traders = [...internal, ...Traders];
-
-  return internal;
-}
-
 export function UpdateQuest(quest, traderName) {
   return selectTrader(traderName).then((trader) => {
     const activeQuest = trader.quests.find((q) => q.name === quest.name);
@@ -86,7 +79,6 @@ function selectTrader(traderName) {
 }
 
 export function updateState(traders) {
-  localStorage.setItem('tarkovqlogState', JSON.stringify(traders));
   ShareProgress(traders).then((res) => {
     console.log(res);
     let shareUrl = new URL(window.location.origin);
@@ -103,9 +95,6 @@ export function AppStarter() {
         return LoadProgress(stateParam.get('state'), traders).then((res) => res);
       }
       return traders;
-    }
-    else if(localStorage.getItem('tarkovqlogParam')) {
-      return LoadProgress(localStorage.getItem('tarkovqlogParam'), traders).then((res) => res);
     }
     return traders;
   })
