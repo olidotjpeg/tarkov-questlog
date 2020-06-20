@@ -1,10 +1,10 @@
 // List of characters that are valid in a URL
-const base58Characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_+!*$".split('')
+const base58Characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_+!*$".split('');
 
 // Internal state
 let Traders = [];
 
-export async function GetQuests() {
+export function GetQuests() {
   return fetch('./data.json', { cache: "force-cache" })
   .then(response => response.json())
   .then(data => {
@@ -21,8 +21,8 @@ export function getPersistent() {
   return internal;
 }
 
-export async function UpdateQuest(quest, traderName) {
-  return await selectTrader(traderName).then((trader) => {
+export function UpdateQuest(quest, traderName) {
+  return selectTrader(traderName).then((trader) => {
     const activeQuest = trader.quests.find((q) => q.name === quest.name);
     activeQuest.state = !activeQuest.state;
     updateState(Traders);
@@ -31,7 +31,7 @@ export async function UpdateQuest(quest, traderName) {
   });
 }
 
-async function ShareProgress(data) {
+function ShareProgress(data) {
   return data.reduce((uri, guy, guyIndex) => {
     const characters = guy.quests
         .map((quest, questIndex) => {
@@ -52,7 +52,7 @@ async function ShareProgress(data) {
   }, "")
 }
 
-export async function LoadProgress(uri, data) {
+export function LoadProgress(uri, data) {
   const numberRegex = /(\d+)/;
   let guyIndex = 0;
 
@@ -79,13 +79,13 @@ export async function LoadProgress(uri, data) {
   return data
 }
 
-async function selectTrader(traderName) {
+function selectTrader(traderName) {
   return Traders.find((trader) => {
     return trader.name === traderName;
   });
 }
 
-export async function updateState(traders) {
+export function updateState(traders) {
   localStorage.setItem('tarkovqlogState', JSON.stringify(traders));
   ShareProgress(traders).then((res) => {
     console.log(res);
@@ -95,7 +95,7 @@ export async function updateState(traders) {
   })
 }
 
-export async function AppStarter() {
+export function AppStarter() {
   return GetQuests().then((traders) => {
     if (window.location.search.length > 0) {
       const stateParam = new URLSearchParams(window.location.search.substring(1));

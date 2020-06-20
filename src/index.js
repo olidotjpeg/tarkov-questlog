@@ -28,7 +28,7 @@ const BackgroundBlur = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(5px)
+  filter: blur(5px);
 `;
 
 function App() {
@@ -47,24 +47,6 @@ function App() {
 
   useEffect(() => {
     AppStarter().then((r) => setTraders(r));
-
-    // if (localStorage.getItem('tarkovqlogState') === undefined) {
-    //   localStorage.removeItem('tarkovqlogState')
-    // }
-    // if (localStorage.getItem('tarkovqlogState')) {
-    //   updateTrader(getPersistent()).then((val) => {
-    //     if (window.location.search.length > 0) {
-    //       getSaveState(val);
-    //     }
-    //   });
-    // } else {
-    //   traderLoader().then((val) => {
-    //     if (window.location.search.length > 0) {
-    //       getSaveState(val);
-    //       // updateState(val).then(r => r);
-    //     }
-    //   });
-    // }
   }, []);// eslint-disable-line react-hooks/exhaustive-deps
 
   return (
