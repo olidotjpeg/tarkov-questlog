@@ -2,7 +2,7 @@
   "name": "react",
   "version": "0.0.0",
   "private": true,
-  "homepage": "http://Stenkilde.github.io/tarkov-questlog",
+  "homepage": "http://olidotjepg.github.io/tarkov-questlog",
   "dependencies": {
     "gh-pages": "^3.0.0",
     "react": "^16.12.0",
