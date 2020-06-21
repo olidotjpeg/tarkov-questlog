@@ -74,7 +74,7 @@ function selectTrader(traders, traderName) {
 
 export function updateState(traders) {
   const sharedResponse = ShareProgress(traders);
-  let shareUrl = new URL(window.location.origin);
+  let shareUrl = new URL(`${window.location.origin}/tarkov-questlog`);
   shareUrl.searchParams.set('state', sharedResponse);
   window.history.replaceState('', '', shareUrl.href);
 }
