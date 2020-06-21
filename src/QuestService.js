@@ -75,6 +75,10 @@ function selectTrader(traders, traderName) {
 export function updateState(traders) {
   const sharedResponse = ShareProgress(traders);
   let shareUrl = new URL(window.location.origin);
+  console.log(shareUrl);
+  if (shareUrl.origin === 'https://olidotjpeg.github.io') {
+    console.log("weee");
+  }
   shareUrl.searchParams.set('state', sharedResponse);
   window.history.replaceState('', '', shareUrl.href);
 }
