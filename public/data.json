@@ -471,7 +471,8 @@
         "reward_money": "₽150000",
         "reward_unlocks": [
           "barter for ASh-12 12.7x55 assault rifle at LL4"
-        ]
+        ],
+        "not_required_for_kappa": true
       },
       {
         "name": "No offence",
@@ -872,7 +873,8 @@
         "objectives": [
           "Handover 500 dollars."
         ],
-        "reward_reputation": "Therapist rep: +0.2"
+        "reward_reputation": "Therapist rep: +0.2",
+        "not_required_for_kappa": true
       },
       {
         "name": "Athlete",
@@ -931,7 +933,8 @@
           "Hand over closet key"
         ],
         "reward_reputation": "Therapist rep: +0.3",
-        "notes": "This quest is activated after completing Chemical - Part 4 or Big customer. By completing Out of curiosity, you will lose access to this quest."
+        "notes": "This quest is activated after completing Chemical - Part 4 or Big customer. By completing Out of curiosity, you will lose access to this quest.",
+        "not_required_for_kappa": true
       }
     ]
   },
@@ -2513,7 +2516,8 @@
           "Trijicon REAP-IR thermal riflescope",
           "3x Physical bitcoin"
         ],
-        "notes": "Jaeger Rep -0.01"
+        "notes": "Jaeger Rep -0.01",
+        "not_required_for_kappa": true
       },
       {
         "name": "Fertilizers",
@@ -2998,7 +3002,8 @@
         "reward_reputation": "Ragman rep: +0.07",
         "reward_other": [
           "2x Altyn face shield"
-        ]
+        ],
+        "not_required_for_kappa": true
       },
       {
         "name": "No fuss needed",
@@ -3067,7 +3072,8 @@
         "reward_money": "₽100000",
         "reward_unlocks": [
           "Adik Tracksuit clothing"
-        ]
+        ],
+        "not_required_for_kappa": true
       },
       {
         "name": "Textile - Part 1",
@@ -3089,7 +3095,8 @@
         "reward_unlocks": [
           "BEAR TIGR lower clothing",
           "USEC Commando Lower clothing"
-        ]
+        ],
+        "not_required_for_kappa": true
       },
       {
         "name": "Textile - Part 2",
@@ -3111,7 +3118,8 @@
         "reward_unlocks": [
           "BEAR TIGR upper clothing",
           "USEC TIER2 Upper clothing"
-        ]
+        ],
+        "not_required_for_kappa": true
       }
     ]
   },
