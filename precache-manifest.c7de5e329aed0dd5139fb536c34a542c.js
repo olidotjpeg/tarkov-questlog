@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46dc10aa4c1ab1b2068747dc3e16281d",
+    "revision": "aec5181330705123820fa2490f4dc032",
     "url": "/tarkov-questlog/index.html"
   },
   {
-    "revision": "9018d8ad7512b465182d",
+    "revision": "6da96cdb9fc93b0e4da1",
     "url": "/tarkov-questlog/static/css/main.ba903ef8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tarkov-questlog/static/js/2.c1973d04.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9018d8ad7512b465182d",
-    "url": "/tarkov-questlog/static/js/main.c604cf6f.chunk.js"
+    "revision": "6da96cdb9fc93b0e4da1",
+    "url": "/tarkov-questlog/static/js/main.b6aaff0e.chunk.js"
   },
   {
     "revision": "b2a40439c80742274b0b",
