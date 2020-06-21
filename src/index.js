@@ -47,6 +47,8 @@ function App() {
 
   useEffect(() => {
     AppStarter().then((r) => setTraders(r));
+    let shareUrl = new URL(window.location.origin);
+    console.log(shareUrl);
   }, []);
 
   return (
