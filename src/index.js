@@ -6,15 +6,30 @@ import {UpdateQuest, AppStarter} from './QuestService';
 import Trader from './Trader';
 import QuestLog from './QuestLog';
 
+const MainWrapper = styled.div`
+  display: flex;
+  overflow: hidden;
+`;
+
 const TraderWrapper = styled.div`
   position: relative;
   z-index: 2;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  max-width: 600px;
   color: #fff;
-  margin: 0 auto;
+  width: 100px;
+  height: 80vh;
+  padding: 10px 10px 0;
+`;
+
+const QuestWrapper = styled.div`
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 95vh;
+  padding: 30px 5px 0;
+  color: #fff;
+  overflow-y: scroll;
 `;
 
 const BackgroundBlur = styled.div`
@@ -50,18 +65,19 @@ function App() {
   }, []);
 
   return (
-    <React.Fragment>
+    <MainWrapper>
       <TraderWrapper>
         {traders.map((trader) => {
           return (
             <Trader key={trader.name} trader={trader} select={pickTrader} />
           )
         })}
-
-        {selectedTrader ? <QuestLog quests={selectedTrader.quests} traderName={selectedTrader.name} updateQuest={updateQuest} /> : <p>Pick a trader</p>}
       </TraderWrapper>
+      <QuestWrapper>
+        {selectedTrader ? <QuestLog quests={selectedTrader.quests} traderName={selectedTrader.name} updateQuest={updateQuest} /> : <p>Pick a trader</p>}
+      </QuestWrapper>
       <BackgroundBlur />
-    </React.Fragment>
+    </MainWrapper>
   );
 }
 

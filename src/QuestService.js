@@ -2,7 +2,7 @@
 const base58Characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_+!*$".split('');
 
 export function GetQuests() {
-  return fetch('./data.json', { cache: "force-cache" })
+  return fetch('./data.json')
   .then(response => response.json())
   .then(data => {
     return data;
