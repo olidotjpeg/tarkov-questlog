@@ -24,7 +24,7 @@ export default ({ quests, traderName, updateQuest }) => {
                         <Box key={quest.name} onClick={() => updateQuest(quest, traderName)}>
                             <p>{quest.name}</p>
                             {quest.objectives.map((q) => <p key={q}>{q}</p>)}
-                            {quest.state ? <p>True</p> : <p>False</p>}
+                            {quest.not_required_for_kappa ? <p>Not Required for Kappa</p> : <p>Required for Kappa</p>}
                         </Box>
                     ) : null
                 }) : <p>We have no quests yet for this trader</p>}
