@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/tarkov-questlog/static/css/main.ba903ef8.chunk.css",
-    "main.js": "/tarkov-questlog/static/js/main.c959f5ba.chunk.js",
-    "main.js.map": "/tarkov-questlog/static/js/main.c959f5ba.chunk.js.map",
+    "main.js": "/tarkov-questlog/static/js/main.3e906262.chunk.js",
+    "main.js.map": "/tarkov-questlog/static/js/main.3e906262.chunk.js.map",
     "runtime-main.js": "/tarkov-questlog/static/js/runtime-main.8b205891.js",
     "runtime-main.js.map": "/tarkov-questlog/static/js/runtime-main.8b205891.js.map",
-    "static/js/2.c1973d04.chunk.js": "/tarkov-questlog/static/js/2.c1973d04.chunk.js",
-    "static/js/2.c1973d04.chunk.js.map": "/tarkov-questlog/static/js/2.c1973d04.chunk.js.map",
+    "static/js/2.1249fc91.chunk.js": "/tarkov-questlog/static/js/2.1249fc91.chunk.js",
+    "static/js/2.1249fc91.chunk.js.map": "/tarkov-questlog/static/js/2.1249fc91.chunk.js.map",
     "index.html": "/tarkov-questlog/index.html",
-    "precache-manifest.2d84ce744992d6ccdb50fc4381b89c1f.js": "/tarkov-questlog/precache-manifest.2d84ce744992d6ccdb50fc4381b89c1f.js",
+    "precache-manifest.73ec5b07f0674ba3243b0b417ee459b9.js": "/tarkov-questlog/precache-manifest.73ec5b07f0674ba3243b0b417ee459b9.js",
     "service-worker.js": "/tarkov-questlog/service-worker.js",
     "static/css/main.ba903ef8.chunk.css.map": "/tarkov-questlog/static/css/main.ba903ef8.chunk.css.map",
-    "static/js/2.c1973d04.chunk.js.LICENSE.txt": "/tarkov-questlog/static/js/2.c1973d04.chunk.js.LICENSE.txt"
+    "static/js/2.1249fc91.chunk.js.LICENSE.txt": "/tarkov-questlog/static/js/2.1249fc91.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8b205891.js",
-    "static/js/2.c1973d04.chunk.js",
+    "static/js/2.1249fc91.chunk.js",
     "static/css/main.ba903ef8.chunk.css",
-    "static/js/main.c959f5ba.chunk.js"
+    "static/js/main.3e906262.chunk.js"
   ]
 }
