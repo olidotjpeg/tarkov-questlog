@@ -11,7 +11,7 @@ const Content = styled.div`
 `;
 
 const Box = styled.div`
-  border: 1px solid blue;
+  border: 1px solid ${props => props.completed ? 'green' : 'red'};
 `;
 
 export default ({ quests, traderName, updateQuest }) => {
@@ -33,10 +33,10 @@ export default ({ quests, traderName, updateQuest }) => {
                 <p>Completed Quests</p>
                 {quests.length > 0 ? quests.map((quest) => {
                     return quest.state ? (
-                        <Box key={quest.name + 'completed'} onClick={() => updateQuest(quest, traderName)}>
+                        <Box completed key={quest.name + 'completed'} onClick={() => updateQuest(quest, traderName)}>
                             <p>{quest.name}</p>
                             {quest.objectives.map((q) => <p key={q}>{q}</p>)}
-                            {quest.state ? <p>True</p> : <p>False</p>}
+                            {quest.not_required_for_kappa ? <p>Not Required for Kappa</p> : <p>Required for Kappa</p>}
                         </Box>
                     ) : null
                 }) : <React.Fragment />}
