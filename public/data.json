@@ -5,6 +5,7 @@
     "quests": [
       {
         "name": "Debut",
+        "url": "https://escapefromtarkov.gamepedia.com/Debut",
         "type": "Elimination",
         "state": false,
         "objectives": [
@@ -24,6 +25,7 @@
       },
       {
         "name": "Checking",
+        "url": "https://escapefromtarkov.gamepedia.com/Checking",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -45,6 +47,7 @@
       },
       {
         "name": "Shootout picnic",
+        "url": "https://escapefromtarkov.gamepedia.com/Shootout_picnic",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -60,6 +63,7 @@
       },
       {
         "name": "Delivery from the past",
+        "url": "https://escapefromtarkov.gamepedia.com/Delivery_from_the_past",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -84,6 +88,7 @@
       },
       {
         "name": "BP depot",
+        "url": "https://escapefromtarkov.gamepedia.com/BP_depot",
         "type": "Discovery",
         "state": false,
         "unlocked_by": [
@@ -108,6 +113,7 @@
       },
       {
         "name": "Bad rep evidence",
+        "url": "https://escapefromtarkov.gamepedia.com/Bad_rep_evidence",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -134,6 +140,7 @@
       },
       {
         "name": "Ice cream cones",
+        "url": "https://escapefromtarkov.gamepedia.com/Ice_cream_cones",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -159,6 +166,7 @@
       },
       {
         "name": "Postman Pat - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Postman_Pat_-_Part_1",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -179,6 +187,7 @@
       },
       {
         "name": "Shaking up teller",
+        "url": "https://escapefromtarkov.gamepedia.com/Shaking_up_teller",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -200,6 +209,7 @@
       },
       {
         "name": "Grenadier",
+        "url": "https://escapefromtarkov.gamepedia.com/Grenadier",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -221,6 +231,7 @@
       },
       {
         "name": "Insomnia",
+        "url": "https://escapefromtarkov.gamepedia.com/Insomnia",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -238,6 +249,7 @@
       },
       {
         "name": "Test drive - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Test_drive_-_Part_1",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -257,6 +269,7 @@
       },
       {
         "name": "Perfect mediator",
+        "url": "https://escapefromtarkov.gamepedia.com/Perfect_mediator",
         "type": "Skill",
         "state": false,
         "unlocked_by": [
@@ -280,6 +293,7 @@
       },
       {
         "name": "The Punisher - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/The_Punisher_-_Part_1",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -301,6 +315,7 @@
       },
       {
         "name": "The Punisher - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/The_Punisher_-_Part_2",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -321,6 +336,7 @@
       },
       {
         "name": "The Punisher - Part 3",
+        "url": "https://escapefromtarkov.gamepedia.com/The_Punisher_-_Part_3",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -340,6 +356,7 @@
       },
       {
         "name": "The Punisher - Part 4",
+        "url": "https://escapefromtarkov.gamepedia.com/The_Punisher_-_Part_4",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -365,6 +382,7 @@
       },
       {
         "name": "The Punisher - Part 5",
+        "url": "https://escapefromtarkov.gamepedia.com/The_Punisher_-_Part_5",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -393,6 +411,7 @@
       },
       {
         "name": "The Punisher - Part 6",
+        "url": "https://escapefromtarkov.gamepedia.com/The_Punisher_-_Part_6",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -417,6 +436,7 @@
       },
       {
         "name": "Big customer",
+        "url": "https://escapefromtarkov.gamepedia.com/Big_customer",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -438,6 +458,7 @@
       },
       {
         "name": "Polikhim hobo",
+        "url": "https://escapefromtarkov.gamepedia.com/Polikhim_hobo",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -456,6 +477,7 @@
       },
       {
         "name": "Regulated materials",
+        "url": "https://escapefromtarkov.gamepedia.com/Regulated_materials",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -476,6 +498,7 @@
       },
       {
         "name": "No offence",
+        "url": "https://escapefromtarkov.gamepedia.com/No_offence",
         "type": "PickUp",
         "state": false,
         "objectives": [
@@ -493,6 +516,7 @@
     "quests": [
       {
         "name": "Postman Pat - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Postman_Pat_-_Part_2",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -510,6 +534,7 @@
       },
       {
         "name": "Shortage",
+        "url": "https://escapefromtarkov.gamepedia.com/Shortage",
         "type": "PickUp",
         "state": false,
         "objectives": [
@@ -527,6 +552,7 @@
       },
       {
         "name": "Sanitary Standards - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Sanitary_Standards_-_Part_1",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -550,6 +576,7 @@
       },
       {
         "name": "Sanitary Standards - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Sanitary_Standards_-_Part_2",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -566,6 +593,7 @@
       },
       {
         "name": "Painkiller",
+        "url": "https://escapefromtarkov.gamepedia.com/Painkiller",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -586,6 +614,7 @@
       },
       {
         "name": "Pharmacist",
+        "url": "https://escapefromtarkov.gamepedia.com/Pharmacist",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -610,6 +639,7 @@
       },
       {
         "name": "Operation Aquarius - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Operation_Aquarius_-_Part_1",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -630,6 +660,7 @@
       },
       {
         "name": "Operation Aquarius - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Operation_Aquarius_-_Part_2",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -652,6 +683,7 @@
       },
       {
         "name": "Supply plans",
+        "url": "https://escapefromtarkov.gamepedia.com/Supply_plans",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -670,6 +702,7 @@
       },
       {
         "name": "General wares",
+        "url": "https://escapefromtarkov.gamepedia.com/General_wares",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -689,6 +722,7 @@
       },
       {
         "name": "Health Care Privacy - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Health_Care_Privacy_-_Part_1",
         "type": "Discovery",
         "state": false,
         "unlocked_by": [
@@ -712,6 +746,7 @@
       },
       {
         "name": "Health Care Privacy - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Health_Care_Privacy_-_Part_2",
         "type": "Discovery",
         "state": false,
         "unlocked_by": [
@@ -731,6 +766,7 @@
       },
       {
         "name": "Health Care Privacy - Part 3",
+        "url": "https://escapefromtarkov.gamepedia.com/Health_Care_Privacy_-_Part_3",
         "type": "Discovery",
         "state": false,
         "unlocked_by": [
@@ -754,6 +790,7 @@
       },
       {
         "name": "Health Care Privacy - Part 4",
+        "url": "https://escapefromtarkov.gamepedia.com/Health_Care_Privacy_-_Part_4",
         "type": "Skill",
         "state": false,
         "unlocked_by": [
@@ -771,6 +808,7 @@
       },
       {
         "name": "Health Care Privacy - Part 5",
+        "url": "https://escapefromtarkov.gamepedia.com/Health_Care_Privacy_-_Part_5",
         "type": "Multi",
         "state": false,
         "unlocked_by": [
@@ -789,6 +827,7 @@
       },
       {
         "name": "Decontamination service",
+        "url": "https://escapefromtarkov.gamepedia.com/Decontamination_service",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -808,6 +847,7 @@
       },
       {
         "name": "Private clinic",
+        "url": "https://escapefromtarkov.gamepedia.com/Private_clinic",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -830,6 +870,7 @@
       },
       {
         "name": "An apple a day - keeps the doctor away",
+        "url": "https://escapefromtarkov.gamepedia.com/An_apple_a_day_-_keeps_the_doctor_away",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -844,6 +885,7 @@
       },
       {
         "name": "Car repair",
+        "url": "https://escapefromtarkov.gamepedia.com/Car_repair",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -864,6 +906,7 @@
       },
       {
         "name": "Hippocratic Vow",
+        "url": "https://escapefromtarkov.gamepedia.com/Hippocratic_Vow",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -878,6 +921,7 @@
       },
       {
         "name": "Athlete",
+        "url": "https://escapefromtarkov.gamepedia.com/Athlete",
         "type": "Skill",
         "state": false,
         "unlocked_by": [
@@ -900,6 +944,7 @@
       },
       {
         "name": "Out of curiosity",
+        "url": "https://escapefromtarkov.gamepedia.com/Out_of_curiosity",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -920,6 +965,7 @@
       },
       {
         "name": "Trust regain",
+        "url": "https://escapefromtarkov.gamepedia.com/Trust_regain",
         "type": "PickUp",
         "state": false,
         "objectives": [
@@ -944,6 +990,7 @@
     "quests": [
       {
         "name": "Supplier",
+        "url": "https://escapefromtarkov.gamepedia.com/Supplier",
         "type": "PickUp",
         "state": false,
         "required_level": "5",
@@ -960,6 +1007,7 @@
       },
       {
         "name": "The Extortionist",
+        "url": "https://escapefromtarkov.gamepedia.com/The_Extortionist",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -982,6 +1030,7 @@
       },
       {
         "name": "Stirrup",
+        "url": "https://escapefromtarkov.gamepedia.com/Stirrup",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -1004,6 +1053,7 @@
       },
       {
         "name": "What's on the flash drive?",
+        "url": "https://escapefromtarkov.gamepedia.com/What's_on_the_flash_drive?",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1026,6 +1076,7 @@
       },
       {
         "name": "Golden swag",
+        "url": "https://escapefromtarkov.gamepedia.com/Golden_swag",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -1049,6 +1100,7 @@
       },
       {
         "name": "Chemical - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Chemical_-_Part_1",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1072,6 +1124,7 @@
       },
       {
         "name": "Chemical - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Chemical_-_Part_2",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1096,6 +1149,7 @@
       },
       {
         "name": "Chemical - Part 3",
+        "url": "https://escapefromtarkov.gamepedia.com/Chemical_-_Part_3",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1116,6 +1170,7 @@
       },
       {
         "name": "Chemical - Part 4",
+        "url": "https://escapefromtarkov.gamepedia.com/Chemical_-_Part_4",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1140,6 +1195,7 @@
       },
       {
         "name": "Vitamins - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Vitamins_-_Part_1",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1164,6 +1220,7 @@
       },
       {
         "name": "Vitamins - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Vitamins_-_Part_2",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1184,6 +1241,7 @@
       },
       {
         "name": "Friend from the West - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Friend_from_the_West_-_Part_1",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -1204,6 +1262,7 @@
       },
       {
         "name": "Friend from the West - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Friend_from_the_West_-_Part_2",
         "type": "merchant",
         "state": false,
         "unlocked_by": [
@@ -1219,6 +1278,7 @@
       },
       {
         "name": "Lend lease - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Lend_lease_-_Part_1",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1243,6 +1303,7 @@
       },
       {
         "name": "Informed means armed",
+        "url": "https://escapefromtarkov.gamepedia.com/Informed_means_armed",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -1263,6 +1324,7 @@
       },
       {
         "name": "Chumming",
+        "url": "https://escapefromtarkov.gamepedia.com/Chumming",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -1284,6 +1346,7 @@
       },
       {
         "name": "Silent caliber",
+        "url": "https://escapefromtarkov.gamepedia.com/Silent_caliber",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -1302,6 +1365,7 @@
       },
       {
         "name": "Loyalty buyout",
+        "url": "https://escapefromtarkov.gamepedia.com/Loyalty_buyout",
         "type": "Loyalty",
         "state": false,
         "objectives": [
@@ -1312,6 +1376,7 @@
       },
       {
         "name": "Kind of sabotage",
+        "url": "https://escapefromtarkov.gamepedia.com/Kind_of_sabotage",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1327,6 +1392,7 @@
       },
       {
         "name": "Flint",
+        "url": "https://escapefromtarkov.gamepedia.com/Flint",
         "type": "Skill",
         "state": false,
         "unlocked_by": [
@@ -1345,6 +1411,7 @@
       },
       {
         "name": "Bullshit",
+        "url": "https://escapefromtarkov.gamepedia.com/Bullshit",
         "type": "Discovery",
         "state": false,
         "unlocked_by": [
@@ -1365,6 +1432,7 @@
       },
       {
         "name": "Setup",
+        "url": "https://escapefromtarkov.gamepedia.com/Setup",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -1389,6 +1457,7 @@
     "quests": [
       {
         "name": "Fishing Gear",
+        "url": "https://escapefromtarkov.gamepedia.com/Fishing_Gear",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -1413,6 +1482,7 @@
       },
       {
         "name": "Tigr Safari",
+        "url": "https://escapefromtarkov.gamepedia.com/Tigr_Safari",
         "type": "Discover",
         "state": false,
         "unlocked_by": [
@@ -1436,6 +1506,7 @@
       },
       {
         "name": "Scrap Metal",
+        "url": "https://escapefromtarkov.gamepedia.com/Scrap_Metal",
         "type": "Discover",
         "state": false,
         "unlocked_by": [
@@ -1462,6 +1533,7 @@
       },
       {
         "name": "Eagle Eye",
+        "url": "https://escapefromtarkov.gamepedia.com/Eagle_Eye",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1486,6 +1558,7 @@
       },
       {
         "name": "Humanitarian Supplies",
+        "url": "https://escapefromtarkov.gamepedia.com/Humanitarian_Supplies",
         "type": "Discover",
         "state": false,
         "unlocked_by": [
@@ -1511,6 +1584,7 @@
       },
       {
         "name": "The Cult - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/The_Cult_-_Part_1",
         "type": "Exploration",
         "state": false,
         "unlocked_by": [
@@ -1533,6 +1607,7 @@
       },
       {
         "name": "The Cult - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/The_Cult_-_Part_2",
         "type": "Exploration",
         "state": false,
         "unlocked_by": [
@@ -1555,6 +1630,7 @@
       },
       {
         "name": "Spa Tour - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Spa_Tour_-_Part_1",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -1573,6 +1649,7 @@
       },
       {
         "name": "Spa Tour - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Spa_Tour_-_Part_2",
         "type": "Exploration",
         "state": false,
         "unlocked_by": [
@@ -1593,6 +1670,7 @@
       },
       {
         "name": "Spa Tour - Part 3",
+        "url": "https://escapefromtarkov.gamepedia.com/Spa_Tour_-_Part_3",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1619,6 +1697,7 @@
       },
       {
         "name": "Spa Tour - Part 4",
+        "url": "https://escapefromtarkov.gamepedia.com/Spa_Tour_-_Part_4",
         "type": "Discover",
         "state": false,
         "unlocked_by": [
@@ -1636,6 +1715,7 @@
       },
       {
         "name": "Spa Tour - Part 5",
+        "url": "https://escapefromtarkov.gamepedia.com/Spa_Tour_-_Part_5",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1655,6 +1735,7 @@
       },
       {
         "name": "Spa Tour - Part 6",
+        "url": "https://escapefromtarkov.gamepedia.com/Spa_Tour_-_Part_6",
         "type": "Standing",
         "state": false,
         "unlocked_by": [
@@ -1672,6 +1753,7 @@
       },
       {
         "name": "Spa Tour - Part 7",
+        "url": "https://escapefromtarkov.gamepedia.com/Spa_Tour_-_Part_7",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1697,6 +1779,7 @@
       },
       {
         "name": "Cargo X - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Cargo_X_-_Part_1",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1716,6 +1799,7 @@
       },
       {
         "name": "Cargo X - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Cargo_X_-_Part_2",
         "type": "Exploration",
         "state": false,
         "unlocked_by": [
@@ -1736,6 +1820,7 @@
       },
       {
         "name": "Cargo X - Part 3",
+        "url": "https://escapefromtarkov.gamepedia.com/Cargo_X_-_Part_3",
         "type": "Multi",
         "state": false,
         "unlocked_by": [
@@ -1756,6 +1841,7 @@
       },
       {
         "name": "Lend lease - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Lend_lease_-_Part_2",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1780,6 +1866,7 @@
       },
       {
         "name": "Wet Job - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Wet_Job_-_Part_1",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -1796,6 +1883,7 @@
       },
       {
         "name": "Wet Job - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Wet_Job_-_Part_2",
         "type": "Exploration",
         "state": false,
         "unlocked_by": [
@@ -1816,6 +1904,7 @@
       },
       {
         "name": "Wet Job - Part 3",
+        "url": "https://escapefromtarkov.gamepedia.com/Wet_Job_-_Part_3",
         "type": "Exploration",
         "state": false,
         "unlocked_by": [
@@ -1832,6 +1921,7 @@
       },
       {
         "name": "Wet Job - Part 4",
+        "url": "https://escapefromtarkov.gamepedia.com/Wet_Job_-_Part_4",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1848,6 +1938,7 @@
       },
       {
         "name": "Wet Job - Part 5",
+        "url": "https://escapefromtarkov.gamepedia.com/Wet_Job_-_Part_5",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -1867,6 +1958,7 @@
       },
       {
         "name": "Wet Job - Part 6",
+        "url": "https://escapefromtarkov.gamepedia.com/Wet_Job_-_Part_6",
         "type": "Skill",
         "state": false,
         "unlocked_by": [
@@ -1889,6 +1981,7 @@
       },
       {
         "name": "The guide",
+        "url": "https://escapefromtarkov.gamepedia.com/The_guide",
         "type": "Exploration",
         "state": false,
         "unlocked_by": [
@@ -1920,6 +2013,7 @@
       },
       {
         "name": "Peacekeeping mission",
+        "url": "https://escapefromtarkov.gamepedia.com/Peacekeeping_mission",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -1941,6 +2035,7 @@
       },
       {
         "name": "Mentor",
+        "url": "https://escapefromtarkov.gamepedia.com/Mentor",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -1961,6 +2056,7 @@
     "quests": [
       {
         "name": "Gunsmith - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_1",
         "type": "Parameter-oriented modding",
         "state": false,
         "required_level": "5",
@@ -1977,6 +2073,7 @@
       },
       {
         "name": "Gunsmith - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_2",
         "type": "Parameter-oriented modding",
         "state": false,
         "unlocked_by": [
@@ -1992,6 +2089,7 @@
       },
       {
         "name": "Gunsmith - Part 3",
+        "url": "https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_3",
         "type": "Parameter-oriented modding",
         "state": false,
         "unlocked_by": [
@@ -2010,6 +2108,7 @@
       },
       {
         "name": "Gunsmith - Part 4",
+        "url": "https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_4",
         "type": "Parameter-oriented modding",
         "state": false,
         "unlocked_by": [
@@ -2028,6 +2127,7 @@
       },
       {
         "name": "Gunsmith - Part 5",
+        "url": "https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_5",
         "type": "Parameter-oriented modding",
         "state": false,
         "unlocked_by": [
@@ -2043,6 +2143,7 @@
       },
       {
         "name": "Gunsmith - Part 6",
+        "url": "https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_6",
         "type": "Parameter-oriented modding",
         "state": false,
         "unlocked_by": [
@@ -2061,6 +2162,7 @@
       },
       {
         "name": "Gunsmith - Part 7",
+        "url": "https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_7",
         "type": "Parameter-oriented modding",
         "state": false,
         "unlocked_by": [
@@ -2079,6 +2181,7 @@
       },
       {
         "name": "Gunsmith - Part 8",
+        "url": "https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_8",
         "type": "Parameter-oriented modding",
         "state": false,
         "unlocked_by": [
@@ -2097,6 +2200,7 @@
       },
       {
         "name": "Gunsmith - Part 9",
+        "url": "https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_9",
         "type": "Parameter-oriented modding",
         "state": false,
         "unlocked_by": [
@@ -2115,6 +2219,7 @@
       },
       {
         "name": "Gunsmith - Part 10",
+        "url": "https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_10",
         "type": "Parameter-oriented modding",
         "state": false,
         "unlocked_by": [
@@ -2135,6 +2240,7 @@
       },
       {
         "name": "Gunsmith - Part 11",
+        "url": "https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_11",
         "type": "Parameter-oriented modding",
         "state": false,
         "unlocked_by": [
@@ -2152,6 +2258,7 @@
       },
       {
         "name": "Gunsmith - Part 12",
+        "url": "https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_12",
         "type": "Parameter-oriented modding",
         "state": false,
         "unlocked_by": [
@@ -2173,6 +2280,7 @@
       },
       {
         "name": "Gunsmith - Part 13",
+        "url": "https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_13",
         "type": "Parameter-oriented modding",
         "state": false,
         "unlocked_by": [
@@ -2194,6 +2302,7 @@
       },
       {
         "name": "Gunsmith - Part 14",
+        "url": "https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_14",
         "type": "Parameter-oriented modding",
         "state": false,
         "unlocked_by": [
@@ -2215,6 +2324,7 @@
       },
       {
         "name": "Gunsmith - Part 15",
+        "url": "https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_15",
         "type": "Parameter-oriented modding",
         "state": false,
         "unlocked_by": [
@@ -2233,6 +2343,7 @@
       },
       {
         "name": "Gunsmith - Part 16",
+        "url": "https://escapefromtarkov.gamepedia.com/Gunsmith_-_Part_16",
         "type": "Parameter-oriented modding",
         "state": false,
         "unlocked_by": [
@@ -2251,6 +2362,7 @@
       },
       {
         "name": "Farming - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Farming_-_Part_1",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -2268,6 +2380,7 @@
       },
       {
         "name": "Farming - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Farming_-_Part_2",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -2292,6 +2405,7 @@
       },
       {
         "name": "Farming - Part 3",
+        "url": "https://escapefromtarkov.gamepedia.com/Farming_-_Part_3",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -2312,6 +2426,7 @@
       },
       {
         "name": "Farming - Part 4",
+        "url": "https://escapefromtarkov.gamepedia.com/Farming_-_Part_4",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -2333,6 +2448,7 @@
       },
       {
         "name": "Signal - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Signal_-_Part_1",
         "type": "Discover",
         "state": false,
         "unlocked_by": [
@@ -2353,6 +2469,7 @@
       },
       {
         "name": "Signal - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Signal_-_Part_2",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -2375,6 +2492,7 @@
       },
       {
         "name": "Signal - Part 3",
+        "url": "https://escapefromtarkov.gamepedia.com/Signal_-_Part_3",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -2396,6 +2514,7 @@
       },
       {
         "name": "Signal - Part 4",
+        "url": "https://escapefromtarkov.gamepedia.com/Signal_-_Part_4",
         "type": "Skill",
         "state": false,
         "unlocked_by": [
@@ -2414,6 +2533,7 @@
       },
       {
         "name": "Bad habit",
+        "url": "https://escapefromtarkov.gamepedia.com/Bad_habit",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -2438,6 +2558,7 @@
       },
       {
         "name": "Scout",
+        "url": "https://escapefromtarkov.gamepedia.com/Scout",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -2459,6 +2580,7 @@
       },
       {
         "name": "Insider",
+        "url": "https://escapefromtarkov.gamepedia.com/Insider",
         "type": "Standing",
         "state": false,
         "unlocked_by": [
@@ -2478,6 +2600,7 @@
       },
       {
         "name": "Psycho Sniper",
+        "url": "https://escapefromtarkov.gamepedia.com/Psycho_Sniper",
         "type": "Skill",
         "state": false,
         "unlocked_by": [
@@ -2497,6 +2620,7 @@
       },
       {
         "name": "Import",
+        "url": "https://escapefromtarkov.gamepedia.com/Import",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -2521,6 +2645,7 @@
       },
       {
         "name": "Fertilizers",
+        "url": "https://escapefromtarkov.gamepedia.com/Fertilizers",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -2542,6 +2667,7 @@
       },
       {
         "name": "A Shooter Born in Heaven",
+        "url": "https://escapefromtarkov.gamepedia.com/A_Shooter_Born_in_Heaven",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -2567,6 +2693,7 @@
       },
       {
         "name": "Introduction",
+        "url": "https://escapefromtarkov.gamepedia.com/Introduction",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -2592,6 +2719,7 @@
     "quests": [
       {
         "name": "Only business",
+        "url": "https://escapefromtarkov.gamepedia.com/Only_business",
         "type": "Merchant",
         "state": false,
         "required_level": "15",
@@ -2607,6 +2735,7 @@
       },
       {
         "name": "Make ULTRA Great Again",
+        "url": "https://escapefromtarkov.gamepedia.com/Make_ULTRA_Great_Again",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -2621,6 +2750,7 @@
       },
       {
         "name": "Big sale",
+        "url": "https://escapefromtarkov.gamepedia.com/Big_sale",
         "type": "Exploration",
         "state": false,
         "unlocked_by": [
@@ -2643,6 +2773,7 @@
       },
       {
         "name": "The Blood of War - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/The_Blood_of_War_-_Part_1",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -2663,6 +2794,7 @@
       },
       {
         "name": "Dressed to kill",
+        "url": "https://escapefromtarkov.gamepedia.com/Dressed_to_kill",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -2681,6 +2813,7 @@
       },
       {
         "name": "Gratitude",
+        "url": "https://escapefromtarkov.gamepedia.com/Gratitude",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -2700,6 +2833,7 @@
       },
       {
         "name": "Sales Night",
+        "url": "https://escapefromtarkov.gamepedia.com/Sales_Night",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -2718,6 +2852,7 @@
       },
       {
         "name": "Hot delivery",
+        "url": "https://escapefromtarkov.gamepedia.com/Hot_delivery",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -2741,6 +2876,7 @@
       },
       {
         "name": "Database - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Database_-_Part_1",
         "type": "Exploration",
         "state": false,
         "unlocked_by": [
@@ -2763,6 +2899,7 @@
       },
       {
         "name": "Database - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Database_-_Part_2",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -2778,6 +2915,7 @@
       },
       {
         "name": "Minibus",
+        "url": "https://escapefromtarkov.gamepedia.com/Minibus",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -2799,6 +2937,7 @@
       },
       {
         "name": "Sew it good - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Sew_it_good_-_Part_1",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -2821,6 +2960,7 @@
       },
       {
         "name": "Sew it good - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Sew_it_good_-_Part_2",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -2841,6 +2981,7 @@
       },
       {
         "name": "Sew it good - Part 3",
+        "url": "https://escapefromtarkov.gamepedia.com/Sew_it_good_-_Part_3",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -2858,6 +2999,7 @@
       },
       {
         "name": "Sew it good - Part 4",
+        "url": "https://escapefromtarkov.gamepedia.com/Sew_it_good_-_Part_4",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -2878,6 +3020,7 @@
       },
       {
         "name": "The Blood of War - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/The_Blood_of_War_-_Part_2",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -2897,6 +3040,7 @@
       },
       {
         "name": "The Blood of War - Part 3",
+        "url": "https://escapefromtarkov.gamepedia.com/The_Blood_of_War_-_Part_3",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -2919,6 +3063,7 @@
       },
       {
         "name": "The key to success",
+        "url": "https://escapefromtarkov.gamepedia.com/The_key_to_success",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -2940,6 +3085,7 @@
       },
       {
         "name": "Living high is not a crime - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Living_high_is_not_a_crime_-_Part_1",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -2966,6 +3112,7 @@
       },
       {
         "name": "Living high is not a crime - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Living_high_is_not_a_crime_-_Part_2",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -2989,6 +3136,7 @@
       },
       {
         "name": "Charisma brings success",
+        "url": "https://escapefromtarkov.gamepedia.com/Charisma_brings_success",
         "type": "Skill",
         "state": false,
         "unlocked_by": [
@@ -3007,6 +3155,7 @@
       },
       {
         "name": "No fuss needed",
+        "url": "https://escapefromtarkov.gamepedia.com/No_fuss_needed",
         "type": "Standing",
         "state": false,
         "unlocked_by": [
@@ -3024,6 +3173,7 @@
       },
       {
         "name": "Supervisor",
+        "url": "https://escapefromtarkov.gamepedia.com/Supervisor",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -3044,6 +3194,7 @@
       },
       {
         "name": "Scavenger",
+        "url": "https://escapefromtarkov.gamepedia.com/Scavenger",
         "type": "Skill",
         "state": false,
         "unlocked_by": [
@@ -3061,6 +3212,7 @@
       },
       {
         "name": "The stylish one",
+        "url": "https://escapefromtarkov.gamepedia.com/The_stylish_one",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -3077,6 +3229,7 @@
       },
       {
         "name": "Textile - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Textile_-_Part_1",
         "type": "Pickup",
         "state": false,
         "unlocked_by": [
@@ -3100,6 +3253,7 @@
       },
       {
         "name": "Textile - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Textile_-_Part_2",
         "type": "Pickup",
         "state": false,
         "unlocked_by": [
@@ -3129,6 +3283,7 @@
     "quests": [
       {
         "name": "Shady business",
+        "url": "https://escapefromtarkov.gamepedia.com/Shady_business",
         "type": "PickUp",
         "state": false,
         "unlocked_by": [
@@ -3148,6 +3303,7 @@
       },
       {
         "name": "Acquaintance",
+        "url": "https://escapefromtarkov.gamepedia.com/Acquaintance",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3164,6 +3320,7 @@
       },
       {
         "name": "The survivalist path - Unprotected, but dangerous",
+        "url": "https://escapefromtarkov.gamepedia.com/The_survivalist_path_-_Unprotected,_but_dangerous",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3182,6 +3339,7 @@
       },
       {
         "name": "The survivalist path - Thrifty",
+        "url": "https://escapefromtarkov.gamepedia.com/The_survivalist_path_-_Thrifty",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3203,6 +3361,7 @@
       },
       {
         "name": "The survivalist path - Zhivchik",
+        "url": "https://escapefromtarkov.gamepedia.com/The_survivalist_path_-_Zhivchik",
         "type": "Experience",
         "state": false,
         "unlocked_by": [
@@ -3221,6 +3380,7 @@
       },
       {
         "name": "The survivalist path - Wounded beast",
+        "url": "https://escapefromtarkov.gamepedia.com/The_survivalist_path_-_Wounded_beast",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3234,6 +3394,7 @@
       },
       {
         "name": "The survivalist path - Tough guy",
+        "url": "https://escapefromtarkov.gamepedia.com/The_survivalist_path_-_Tough_guy",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3252,6 +3413,7 @@
       },
       {
         "name": "The survivalist path - Cold blooded",
+        "url": "https://escapefromtarkov.gamepedia.com/The_survivalist_path_-_Cold_blooded",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3266,6 +3428,7 @@
       },
       {
         "name": "The survivalist path - Junkie",
+        "url": "https://escapefromtarkov.gamepedia.com/The_survivalist_path_-_Junkie",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -3285,6 +3448,7 @@
       },
       {
         "name": "The survivalist path - Combat medic",
+        "url": "https://escapefromtarkov.gamepedia.com/The_survivalist_path_-_Combat_medic",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3302,6 +3466,7 @@
       },
       {
         "name": "Huntsman path - Secured perimeter",
+        "url": "https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Secured_perimeter",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3322,6 +3487,7 @@
       },
       {
         "name": "Huntsman path - The trophy",
+        "url": "https://escapefromtarkov.gamepedia.com/Huntsman_path_-_The_trophy",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3343,6 +3509,7 @@
       },
       {
         "name": "Huntsman path - Woods cleaning",
+        "url": "https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Woods_cleaning",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3360,6 +3527,7 @@
       },
       {
         "name": "Huntsman path - Controller",
+        "url": "https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Controller",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3377,6 +3545,7 @@
       },
       {
         "name": "Huntsman path - Sell-out",
+        "url": "https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Sell-out",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -3398,6 +3567,7 @@
       },
       {
         "name": "Huntsman path - Woods keeper",
+        "url": "https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Woods_keeper",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3419,6 +3589,7 @@
       },
       {
         "name": "Huntsman path - Justice",
+        "url": "https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Justice",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3436,6 +3607,7 @@
       },
       {
         "name": "Huntsman path - Evil watchman",
+        "url": "https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Evil_watchman",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3454,6 +3626,7 @@
       },
       {
         "name": "Huntsman path - Eraser - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Eraser_-_Part_1",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3471,6 +3644,7 @@
       },
       {
         "name": "Huntsman path - Eraser - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/Huntsman_path_-_Eraser_-_Part_2",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3488,6 +3662,7 @@
       },
       {
         "name": "Ambulance",
+        "url": "https://escapefromtarkov.gamepedia.com/Ambulance",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3512,6 +3687,7 @@
       },
       {
         "name": "Nostalgia",
+        "url": "https://escapefromtarkov.gamepedia.com/Nostalgia",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3533,6 +3709,7 @@
       },
       {
         "name": "Fishing place",
+        "url": "https://escapefromtarkov.gamepedia.com/Fishing_place",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3548,6 +3725,7 @@
       },
       {
         "name": "Courtesy visit",
+        "url": "https://escapefromtarkov.gamepedia.com/Courtesy_visit",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3565,6 +3743,7 @@
       },
       {
         "name": "Hunting trip",
+        "url": "https://escapefromtarkov.gamepedia.com/Hunting_trip",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3589,6 +3768,7 @@
       },
       {
         "name": "Reserv",
+        "url": "https://escapefromtarkov.gamepedia.com/Reserv",
         "type": "Completion",
         "state": false,
         "unlocked_by": [
@@ -3608,6 +3788,7 @@
       },
       {
         "name": "The Tarkov shooter - Part 1",
+        "url": "https://escapefromtarkov.gamepedia.com/%22The_Tarkov_shooter%22_-_Part_1",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -3628,6 +3809,7 @@
       },
       {
         "name": "The Tarkov shooter - Part 2",
+        "url": "https://escapefromtarkov.gamepedia.com/%22The_Tarkov_shooter%22_-_Part_2",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -3649,6 +3831,7 @@
       },
       {
         "name": "The Tarkov shooter - Part 3",
+        "url": "https://escapefromtarkov.gamepedia.com/%22The_Tarkov_shooter%22_-_Part_3",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -3671,6 +3854,7 @@
       },
       {
         "name": "The Tarkov shooter - Part 4",
+        "url": "https://escapefromtarkov.gamepedia.com/%22The_Tarkov_shooter%22_-_Part_4",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -3693,6 +3877,7 @@
       },
       {
         "name": "The Tarkov shooter - Part 5",
+        "url": "https://escapefromtarkov.gamepedia.com/%22The_Tarkov_shooter%22_-_Part_5",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -3713,6 +3898,7 @@
       },
       {
         "name": "The Tarkov shooter - Part 6",
+        "url": "https://escapefromtarkov.gamepedia.com/%22The_Tarkov_shooter%22_-_Part_6",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -3733,6 +3919,7 @@
       },
       {
         "name": "The Tarkov shooter - Part 7",
+        "url": "https://escapefromtarkov.gamepedia.com/%22The_Tarkov_shooter%22_-_Part_7",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -3753,6 +3940,7 @@
       },
       {
         "name": "The Tarkov shooter - Part 8",
+        "url": "https://escapefromtarkov.gamepedia.com/%22The_Tarkov_shooter%22_-_Part_8",
         "type": "Elimination",
         "state": false,
         "unlocked_by": [
@@ -3781,6 +3969,7 @@
     "quests": [
       {
         "name": "Collector",
+        "url": "https://escapefromtarkov.gamepedia.com/Collector",
         "type": "PickUp",
         "state": false,
         "objectives": [
